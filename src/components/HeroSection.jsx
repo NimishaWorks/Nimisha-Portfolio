@@ -12,7 +12,7 @@ export const HeroSection = () => {
                             <div className="relative">
                                 <div className="w-70 h-70 md:w-80 md:h-80 lg:w-90 lg:h-90 rounded-lg overflow-hidden border-4 border-primary/20 shadow-2xl backdrop-blur-sm">
                                     <img 
-  src="public\achievements\nim.png" 
+  src="/achievements/nim.png" 
   alt="Nimisha Subhash" 
   className="w-full h-full object-cover"
 />

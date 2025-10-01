@@ -4,7 +4,7 @@ const achievements = [
   {
     id: 1,
     title: "NPTEL - Introduction to Machine Learning (Elite Certification)",
-    type: "Certification",
+    type: "certification",
     issuer: "NPTEL (IIT Faculty)",
     date: "2025",
     description: "Achieved Elite certification in NPTEL's Introduction to Machine Learning course. Covered core ML concepts including supervised and unsupervised learning, regression, classification, clustering, and evaluation metrics, with practical applications using Python.",
@@ -36,7 +36,7 @@ const achievements = [
   {
     id: 4,
     title: "Introduction to Data Science in Python",
-    type: "Certification",
+    type: "certification",
     issuer: "Coursera (University of Michigan)",
     date: "2025",
     description: "Completed the 'Introduction to Data Science in Python' course on Coursera, gaining hands-on experience in data analysis, Python programming, and data visualization.",
@@ -46,7 +46,7 @@ const achievements = [
 {
     id: 5,
     title: "Complete Fullstack Web Development Bootcamp",
-    type: "Certification",
+    type: "certification",
     issuer: "Udemy",
     date: "2025",
     description: "Completed the 'Complete Fullstack Web Development Bootcamp' on Udemy, covering HTML, CSS, JavaScript, Node.js, Express, React.js, and project-based web development.",
@@ -58,7 +58,7 @@ const achievements = [
     {
     id: 6,
     title: "Data Analytics Job Simulation",
-    type: "Certification",
+    type: "certification",
     issuer: "Deloitte",
     date: "June 2025",
     description: "Completed a practical Data Analytics Job Simulation by Deloitte, gaining hands-on experience in data analysis and forensic technology.",
