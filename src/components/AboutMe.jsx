@@ -27,7 +27,7 @@ export const AboutMe=()=>{
         {" "}
         Let's Connect
     </a>
-    <a href="public\achievements\NimishaResume.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+    <a href="/achievements/NimishaResume.pdf" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
         {" "}
         Download Resume
     </a>
