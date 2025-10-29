@@ -12,17 +12,36 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 2,
-    title: "CozyCorner-A e-commerce website",
-    description:
-      "An e-commerce website built with the MERN stack (MongoDB, Express, React, Node.js) that offers users a seamless online shopping experience.",
-    image: "/projects/CozyCorner.png",
-    tags: ["MongoDB,ExpressJS,ReactJS,NodeJS"],
-    demoUrl: "#",
-    githubUrl: "#",
+  id: 2,
+  title: "CodeVerse — Play. Learn. Code.",
+  description:
+    "An AI-driven, gamified learning ecosystem that teaches DSA, core CS subjects, and interview prep through story-based levels, quizzes, coding terminals, and mini game-simulations. Features include an adaptive AI mentor (Tuto), Candy-Crush style course roadmaps, PPT → interactive story converter, resume builder, and achievement/leaderboard systems.",
+  image: "projects/Codeverse.png",
+  tags: ["React", "TailwindCSS", "Framer Motion", "Firebase", "Phaser.js", "AI"],
+  demoUrl: "#",
+  githubUrl: "https://github.com/NimishaWorks/codeverse.git"
+},
+{ id: 3,
+  title: "Heart Disease Prediction-End-to-End ML Pipeline",
+  description:
+    "A full machine learning pipeline that predicts the presence of heart disease using structured clinical data. The project covers data cleaning, exploration, feature engineering, model training (logistic regression, random forests), evaluation (ROC, precision-recall), and deployment readiness. Inspired by Mr D Bourke’s ‘End-to-End Heart Disease Classification’ notebook on GitHub.",
+  image: "/projects/Heart.png",
+  tags: ["Python", "Pandas", "Scikit-Learn", "Machine Learning", "Data Visualization"],
+ 
+  demoUrl: "#",
+  githubUrl: "#",
+},
+{
+    id:4,
+    title:"Credit-Card Fraud Detection",
+    description:"A machine learning model that analyzes credit card transactions to identify and classify fraudulent activities, helping to prevent financial loss.",
+    image:"/projects/CreditCardFraud.png",
+    tags:["Python, Pandas, Scikit-learn, Matplotlib"],
+    demoUrl:"#",
+    githubUrl:"https://github.com/NimishaWorks/Credit-Card-Fraud.git",
   },
   {
-    id: 3,
+    id: 5,
     title: "TastyBites- A responsive restaurant website",
     description:
       "A food-focused app/website that lets users explore, order, or discover delicious meals and recipes, built to offer a delightful culinary experience.",
@@ -32,14 +51,17 @@ const projects = [
     githubUrl: "https://github.com/NimishaWorks/Project_Restaurant.git",
   },
   {
-    id:4,
-    title:"Credit-Card Fraud Detection",
-    description:"A machine learning model that analyzes credit card transactions to identify and classify fraudulent activities, helping to prevent financial loss.",
-    image:"/projects/CreditCardFraud.png",
-    tags:["Python, Pandas, Scikit-learn, Matplotlib"],
-    demoUrl:"#",
-    githubUrl:"https://github.com/NimishaWorks/Credit-Card-Fraud.git",
+    id: 6,
+    title: "CozyCorner-A e-commerce website",
+    description:
+      "An e-commerce website built with the MERN stack (MongoDB, Express, React, Node.js) that offers users a seamless online shopping experience.",
+    image: "/projects/CozyCorner.png",
+    tags: ["MongoDB,ExpressJS,ReactJS,NodeJS"],
+    demoUrl: "#",
+    githubUrl: "#",
   }
+
+
 ];
 
 export const ProjectsSection = () => {
