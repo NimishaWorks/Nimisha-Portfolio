@@ -19,13 +19,13 @@ const projects = [
   image: "projects/Codeverse.png",
   tags: ["React", "TailwindCSS", "Framer Motion", "Firebase", "Phaser.js", "AI"],
   demoUrl: "#",
-  githubUrl: "https://github.com/NimishaWorks/codeverse.git"
+  githubUrl: ""
 },
 { id: 3,
   title: "Heart Disease Prediction-End-to-End ML Pipeline",
   description:
-    "A full machine learning pipeline that predicts the presence of heart disease using structured clinical data. The project covers data cleaning, exploration, feature engineering, model training (logistic regression, random forests), evaluation (ROC, precision-recall), and deployment readiness. Inspired by Mr D Bourke’s ‘End-to-End Heart Disease Classification’ notebook on GitHub.",
-  image: "/projects/Heart.png",
+    "A full machine learning pipeline that predicts the presence of heart disease using structured clinical data. The project covers data cleaning, exploration, feature engineering, model training (logistic regression, random forests), evaluation (ROC, precision-recall), and deployment readiness.",
+  image: "projects/Heart.png",
   tags: ["Python", "Pandas", "Scikit-Learn", "Machine Learning", "Data Visualization"],
  
   demoUrl: "#",
