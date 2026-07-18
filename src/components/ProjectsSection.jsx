@@ -28,7 +28,7 @@ const projects = [
     title: "FoodGenie – AI Meal Planning & Grocery Automation",
     description:
       "An AI-powered meal planning platform with personalized recommendations, automated grocery ordering using Playwright, secure authentication, and scalable REST APIs built with FastAPI and PostgreSQL.",
-    image: "/projects/foodGenie.png",
+    image: "/projects/foodgenie.png",
     tags: ["FastAPI", "PostgreSQL", "Playwright", "Python"],
     demoUrl: "#",
     githubUrl: "https://github.com/NimishaWorks/FoodGenie",
