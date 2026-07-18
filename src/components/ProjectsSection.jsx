@@ -3,65 +3,120 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "CitiFix- A Crowdsourced public issue reporting app",
+    title: "Airline Operations Intelligence Dashboard",
     description:
-      "A crowdsourced app that lets users report public issues like garbage, potholes, and broken infrastructure to help improve city cleanliness and maintenance.",
-    image: "/projects/Citifix.png",
-    tags: [" Html,CSS,JS,Supabase"],
+      "An interactive Power BI dashboard analyzing 3M+ flight records across 18 airlines and 380 airports (2019–2023). Features drill-down filters, KPI cards, delay and cancellation analysis, COVID-19 impact trends, and actionable operational insights for airlines.",
+    image: "/projects/dashboard.png",
+    tags: ["Power BI", "SQL", "DAX", "Data Analytics"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/NimishaWorks/airline_operations_intelligence_dashboard",
+  },
+
+  {
+    id: 2,
+    title: "CashIQ – AI Financial Intelligence Platform",
+    description:
+      "An AI-powered financial analytics platform that analyzes transaction data, detects anomalies, and generates intelligent financial insights using LLMs and Retrieval-Augmented Generation (RAG). Built with scalable data pipelines and personalized recommendations.",
+    image: "/projects/fi.jpg",
+    tags: ["Python", "PostgreSQL", "LLMs", "RAG", "AI"],
     demoUrl: "#",
     githubUrl: "#",
   },
+
   {
-  id: 2,
-  title: "CodeVerse — Play. Learn. Code.",
-  description:
-    "An AI-driven, gamified learning ecosystem that teaches DSA, core CS subjects, and interview prep through story-based levels, quizzes, coding terminals, and mini game-simulations. Features include an adaptive AI mentor (Tuto), Candy-Crush style course roadmaps, PPT → interactive story converter, resume builder, and achievement/leaderboard systems.",
-  image: "projects/Codeverse.png",
-  tags: ["React", "TailwindCSS", "Framer Motion", "Firebase", "Phaser.js", "AI"],
-  demoUrl: "#",
-  githubUrl: ""
-},
-{ id: 3,
-  title: "Heart Disease Prediction-End-to-End ML Pipeline",
-  description:
-    "A full machine learning pipeline that predicts the presence of heart disease using structured clinical data. The project covers data cleaning, exploration, feature engineering, model training (logistic regression, random forests), evaluation (ROC, precision-recall), and deployment readiness.",
-  image: "projects/Heart.png",
-  tags: ["Python", "Pandas", "Scikit-Learn", "Machine Learning", "Data Visualization"],
- 
-  demoUrl: "#",
-  githubUrl: "#",
-},
-{
-    id:4,
-    title:"Credit-Card Fraud Detection",
-    description:"A machine learning model that analyzes credit card transactions to identify and classify fraudulent activities, helping to prevent financial loss.",
-    image:"/projects/CreditCardFraud.png",
-    tags:["Python, Pandas, Scikit-learn, Matplotlib"],
-    demoUrl:"#",
-    githubUrl:"https://github.com/NimishaWorks/Credit-Card-Fraud.git",
+    id: 3,
+    title: "FoodGenie – AI Meal Planning & Grocery Automation",
+    description:
+      "An AI-powered meal planning platform with personalized recommendations, automated grocery ordering using Playwright, secure authentication, and scalable REST APIs built with FastAPI and PostgreSQL.",
+    image: "/projects/foodGenie.png",
+    tags: ["FastAPI", "PostgreSQL", "Playwright", "Python"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/NimishaWorks/FoodGenie",
   },
+
+  {
+    id: 4,
+    title: "CitiFix – Smart Civic Issue Reporting Platform",
+    description:
+      "A full-stack civic engagement platform enabling citizens to report public issues with geolocation, voting, workflow management, and an interactive analytics dashboard powered by Chart.js for real-time statistics and issue trend analysis.",
+    image: "/projects/Citifix.png",
+    tags: ["Flask", "MySQL", "Chart.js", "REST API"],
+    demoUrl: "https://citifix-v2.vercel.app/",
+    githubUrl: "https://github.com/NimishaWorks/citifix_v2",
+  },
+
   {
     id: 5,
-    title: "TastyBites- A responsive restaurant website",
+    title: "Heart Disease Prediction – End-to-End ML Pipeline",
     description:
-      "A food-focused app/website that lets users explore, order, or discover delicious meals and recipes, built to offer a delightful culinary experience.",
+      "A complete machine learning pipeline that predicts heart disease using structured clinical data. Includes data preprocessing, feature engineering, model training, evaluation, and deployment-ready workflows.",
+    image: "/projects/Heart.png",
+    tags: [
+      "Python",
+      "Pandas",
+      "Scikit-Learn",
+      "Machine Learning",
+      "Data Visualization",
+    ],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+
+  {
+    id: 6,
+    title: "Credit Card Fraud Detection",
+    description:
+      "A machine learning solution that detects fraudulent credit card transactions using classification algorithms, helping identify suspicious financial activities and reduce financial loss.",
+    image: "/projects/CreditCardFraud.png",
+    tags: [
+      "Python",
+      "Pandas",
+      "Scikit-Learn",
+      "Matplotlib",
+    ],
+    demoUrl: "#",
+    githubUrl: "https://github.com/NimishaWorks/Credit-Card-Fraud.git",
+  },
+
+  {
+    id: 7,
+    title: "CodeVerse — Play. Learn. Code.",
+    description:
+      "An AI-driven gamified learning platform for DSA, core CS subjects, and interview preparation with adaptive AI mentoring, coding challenges, interactive roadmaps, resume building, and achievement systems.",
+    image: "/projects/Codeverse.png",
+    tags: [
+      "React",
+      "TailwindCSS",
+      "Firebase",
+      "Phaser.js",
+      "Framer Motion",
+      "AI",
+    ],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+
+  {
+    id: 8,
+    title: "CozyCorner – E-commerce Website",
+    description:
+      "A MERN stack e-commerce application providing a seamless shopping experience with product browsing, authentication, and modern responsive design.",
+    image: "/projects/CozyCorner.png",
+    tags: ["MongoDB", "Express", "React", "Node.js"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+
+  {
+    id: 9,
+    title: "TastyBites – Responsive Restaurant Website",
+    description:
+      "A responsive restaurant website that allows users to explore food menus with an engaging user interface and optimized browsing experience.",
     image: "/projects/TastyBites.png",
-    tags: ["Html,CSS,JS"],
+    tags: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://tastybites-gules.vercel.app/",
     githubUrl: "https://github.com/NimishaWorks/Project_Restaurant.git",
   },
-  {
-    id: 6,
-    title: "CozyCorner-A e-commerce website",
-    description:
-      "An e-commerce website built with the MERN stack (MongoDB, Express, React, Node.js) that offers users a seamless online shopping experience.",
-    image: "/projects/CozyCorner.png",
-    tags: ["MongoDB,ExpressJS,ReactJS,NodeJS"],
-    demoUrl: "#",
-    githubUrl: "#",
-  }
-
-
 ];
 
 export const ProjectsSection = () => {
